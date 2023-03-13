@@ -1,0 +1,203 @@
+*{
+    overflow: auto;
+}
+
+
+body{
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p.categorie{
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 16px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: -20px;
+    margin-bottom: 0%;
+    
+    
+
+}
+div.contenu{
+    box-shadow: -5px -5px 2em black,5px 5px 2em black;
+    background-color: white;
+    margin: 40px 8px 40px 8px;
+    padding: 0px 8px 20px 8px;
+    overflow: visible;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 12px;
+}
+.center{
+    text-align: center;
+    width: 100%;
+}
+div.categorie{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: visible;
+    
+}
+div.blackline{
+
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    width: 100px;
+    background-color: #000000;
+}
+table.info{
+    position: absolute; 
+    bottom: 0%; 
+    width: 100%;
+    color: aliceblue; 
+    background-color: #6C829DC0; 
+    height: 40px;
+
+}
+table.info th{
+    text-align: center;
+    font-size: 14px;
+    vertical-align: bottom;
+    padding-bottom: 4px;
+}
+table.info td{
+    text-align: center;
+    font-size: 12px;
+    vertical-align: top;
+}
+div.info{
+    position: relative;
+}
+.picture{
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: beige;
+}
+.colonne{
+    width: 100%;
+    margin-top: 20px;
+}
+.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 3px solid #6C829D;
+    padding-bottom: 5px;
+    
+}
+.colonne1{
+    display: inline-block;
+}
+
+div.ingredients{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.ingredients p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    border: 1px solid lightgray;
+}
+table.preparation p.number{
+    background-color: #6C829D;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    width: 35px;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 9px;
+    border-radius: 50%;
+    margin: 0;
+
+}
+table.preparation td{
+    vertical-align: top;
+}
+td.prepa_step{
+    font-size: 14px;
+    padding-left: 10px;
+    /*padding-bottom: 10px;*/
+    vertical-align: middle;
+}
+table.preparation tr{
+    height: 40px;
+}
+
+/* commentaires CSS */
+
+
+@media only screen and (min-width: 768px) {
+    /* For computer: */
+    div.contenu{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        min-width: 350px;
+    }
+
+    table.info{
+        height: 80px;
+    }
+    table.info th{
+        font-size: 100%;
+        padding-bottom: 8px;
+    }
+    table.info td{
+        font-size: 80%;
+    }
+    .colonne{
+        width: 45%;
+        margin-top: 20px;
+    }
+    .colonne h2{
+        font-size: 15px;
+        padding-bottom: 5px;
+        
+    }
+    .colonne1{
+        margin-right: 10%;
+    }
+    .colonne2{
+        float: right;
+        
+    }
+  }
+  @media only screen and (min-width: 900px) {
+    /* For computer: */
+    div.contenu{
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 645px;
+    }
+  }
